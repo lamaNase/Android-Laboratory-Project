@@ -77,7 +77,7 @@ The app will utilize **Android Studio**, **SQLite Database**, and support both *
 
 ## 🎥✨ Promo Video
 
-[![Promo Video](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](promo_video.mp4)
+https://github.com/lamaNase/Android-Laboratory-Project/raw/main/promo_video.mp4"
 
 
 
