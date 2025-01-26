@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="secondary_text">#666666</color>
+    <color name="light_blue">#ADD8E6</color>
+
+    <color name="lightLowPriority">#D6F5D6</color> <!-- Light green -->
+    <color name="lightMediumPriority">#FFE5B4</color> <!-- Light orange -->
+    <color name="lightHighPriority">#FFC2C2</color> <!-- Light red -->
+
+</resources>

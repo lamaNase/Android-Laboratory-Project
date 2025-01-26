@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/light_blue"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imgProfile"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@color/cardview_shadow_start_color"
+        android:paddingStart="2dp"
+        android:paddingLeft="2dp"
+        android:paddingTop="2dp"
+        android:paddingEnd="2dp"
+        android:paddingRight="2dp"
+        android:paddingBottom="2dp"
+        android:src="@drawable/updateprofile"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:shapeAppearanceOverlay="@style/circular"
+        app:strokeColor="#7E7777"
+        app:strokeWidth="1.5dp"/>
+
+
+    <TextView
+        android:id="@+id/view_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:text="Coding in Flow"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/view_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="info@codinginflow.com"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+
+</LinearLayout>

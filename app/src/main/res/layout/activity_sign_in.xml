@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="35dp"
+    tools:context=".SignInActivity">
+
+    <!-- Logo image at the top -->
+    <ImageView
+        android:id="@+id/sign_in_image"
+        android:layout_width="241dp"
+        android:layout_height="197dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="2dp"
+        android:src="@drawable/login" />
+
+    <!-- Email input field -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/email_input_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sign_in_image"
+        android:layout_marginTop="0dp"
+        style="@style/CustomTextInputStyle">
+
+        <EditText
+            android:id="@+id/email_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_border"
+            android:hint="📩 Email"
+            android:inputType="textEmailAddress" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Password input field -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/password_input_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/email_input_layout"
+        android:layout_marginTop="16dp">
+
+        <EditText
+            android:id="@+id/password_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_border"
+            android:hint="🔒 Password"
+            android:inputType="textPassword" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Remember me checkbox -->
+    <CheckBox
+        android:id="@+id/remember_me_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/password_input_layout"
+        android:layout_marginTop="16dp"
+        android:text="Remember Me" />
+
+    <!-- Login button -->
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/remember_me_checkbox"
+        android:layout_marginTop="15dp"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:backgroundTint="#1B8CA4"
+        android:text="🔑 Login" />
+
+    <!-- Text for users who don't have an account -->
+    <TextView
+        android:id="@+id/sign_up_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/login_button"
+        android:layout_marginTop="24dp"
+        android:gravity="center"
+        android:text="Don't have an account? Sign up"
+        android:textSize="16sp" />
+
+    <!-- Sign-up button -->
+    <Button
+        android:id="@+id/sign_up_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sign_up_text"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#1B8CA4"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:text="✍️ Sign Up" />
+
+    <!-- Sign-up button -->
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="match_parent"
+        android:textSize="18sp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sign_up_button"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#1B8CA4"
+        android:textColor="@color/white"
+        android:text="🏠 Back" />
+
+</RelativeLayout>

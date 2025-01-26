@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#89CFF0</item> <!-- Changed to a non-white color -->
+        <item name="colorPrimaryDark">#3700B3</item> <!-- Darker shade for the status bar -->
+        <item name="colorAccent">#03DAC5</item>
+        <item name="android:windowBackground">#FFFFFF</item>
+        <item name="android:textColorPrimary">@android:color/black</item> <!-- Ensure primary text color is visible -->
+    </style>
+
+    <style name="CustomTextInputStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxCollapsedPaddingTop">40dp</item>
+    </style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="circular">
+        <item name="cornerSize">50%</item>
+    </style>
+    <style name="CustomMenuItemStyle" parent="TextAppearance.AppCompat.Widget.ActionBar.Menu">
+        <item name="android:textSize">34sp</item>
+        <!--<item name="android:iconSize">32dp</item>-->
+    </style>
+    <style name="DialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/slide_in_right</item>
+        <item name="android:windowExitAnimation">@anim/slide_out_left</item>
+    </style>
+</resources>

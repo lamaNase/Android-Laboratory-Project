@@ -1,0 +1,49 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_today"
+            android:icon="@drawable/today"
+            android:iconTint="@null"
+            android:title="Today"
+            style="@style/CustomMenuItemStyle"/>
+        <item
+            android:id="@+id/nav_add_task"
+            android:icon="@drawable/addtask"
+            android:iconTint="@null"
+            android:title="Add New Task"
+            style="@style/CustomMenuItemStyle"/>
+        <item
+            android:id="@+id/nav_all_task"
+            android:icon="@drawable/alltask"
+            android:iconTint="@null"
+            android:title="All Tasks"
+            style="@style/CustomMenuItemStyle"/>
+        <item
+            android:id="@+id/nav_completed_task"
+            android:icon="@drawable/completedtask"
+            android:iconTint="@null"
+            android:title="Completed Tasks"
+            style="@style/CustomMenuItemStyle"/>
+        <item
+            android:id="@+id/nav_search"
+            android:icon="@drawable/searchtask"
+            android:iconTint="@null"
+            android:title="Search"
+            style="@style/CustomMenuItemStyle"/>
+
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/profile"
+            android:iconTint="@null"
+            android:title="Profile"
+            style="@style/CustomMenuItemStyle"/>
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/logout"
+            android:iconTint="@null"
+            android:title="Logout"
+            style="@style/CustomMenuItemStyle"/>
+    </group>
+</menu>
