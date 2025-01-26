@@ -77,7 +77,7 @@ The app will utilize **Android Studio**, **SQLite Database**, and support both *
 
 ## 🎥✨ Promo Video
 
-https://github.com/user-attachments/assets/promo_video
+
 
 
 
