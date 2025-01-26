@@ -78,9 +78,21 @@ The app will utilize **Android Studio**, **SQLite Database**, and support both *
 ## 🎥✨ Promo Video
 
 
+---
 
+# 🛠️📹 Walkthrough Video
 
+---
 
+## Team Members 👥:
+
+<p>
+  <img src="https://img.shields.io/badge/Lama%20Naser-blue?style=for-the-badge" alt="Lama Naser">
+</p>
+
+<p>
+  <img src="https://img.shields.io/badge/Maha%20Mali-yellow?style=for-the-badge" alt="Maha Mali">
+</p>  
 
 
 
