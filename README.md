@@ -9,6 +9,13 @@ The app will utilize **Android Studio**, **SQLite Database**, and support both *
 
 ---
 
+## 🛠️📹 Walkthrough Video
+
+
+https://github.com/user-attachments/assets/cd8272d0-b024-4dba-a6fe-f82bfd208432
+
+---
+
 ## 🚀 **Features**  
 
 ### 🔐 **User Authentication**  
@@ -78,14 +85,6 @@ The app will utilize **Android Studio**, **SQLite Database**, and support both *
 ## 🎥✨ Promo Video
 
 https://github.com/user-attachments/assets/9097f440-7727-4b72-896c-dfcb1e71c8b0
-
-
----
-
-## 🛠️📹 Walkthrough Video
-
-
-https://github.com/user-attachments/assets/cd8272d0-b024-4dba-a6fe-f82bfd208432
 
 
 ---
